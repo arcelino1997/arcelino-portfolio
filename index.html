@@ -9,39 +9,41 @@
 </head>
 <body>
     <header class="cabecalho">
-        <a href="index.html"><img src="arcelino-santos.png" alt="HOME"></a>
+        <a href="index.html"><img src="/img/arcelino-santos.png" alt="HOME"></a>
         <button id="email" class="email" onclick="email()">a.santos.contact@gmail.com</button>
     </header>
     <section class="header__menu">
-        <button id="about" class="about" onclick="about()">Sobre mim</button>
-        <button id="bformacao" class="bformacao" onclick="formacao()">Formação</button>
-        <button id="bhobbies" class="bhobbies" onclick="hobbies()">Hobbies e Soft skills</button>
-        <button id="bprojetos" class="bprojetos" onclick="projetos()">Projetos</button>
-        <button id="bcontato" class="bcontato" onclick="contato()">Contate-me</button>       
+        <button id="inicio" class="btn" onclick="inicio()">Inicio</button>
+        <button id="bsobre" class="btn" onclick="about()">Sobre mim</button>
+        <button id="bformacao" class="btn" onclick="formacao()">Formação</button>
+        <button id="bhobbies" class="btn" onclick="hobbies()">Hobbies e Soft skills</button>
+        <button id="bprojetos" class="btn" onclick="projetos()">Projetos</button>
+        <button id="bcontato" class="btn" onclick="contato()">Contate-me</button>       
     </section>
     <main class="main">
 
         <aside class="main__botoes">
-            <button id="about" class="about" onclick="about()">Sobre mim</button>
-            <button id="bformacao" class="bformacao" onclick="formacao()">Formação</button>
-            <button id="bhobbies" class="bhobbies" onclick="hobbies()">Hobbies e Soft skills</button>
-            <button id="bprojetos" class="bprojetos" onclick="projetos()">Projetos</button>
-            <button id="bcontato" class="bcontato" onclick="contato()">Contate-me</button>       
+            <button id="inicio" class="btn" onclick="inicio()">Inicio</button>
+            <button id="bsobre" class="btn" onclick="about()">Sobre mim</button>
+            <button id="bformacao" class="btn" onclick="formacao()">Formação</button>
+            <button id="bhobbies" class="btn" onclick="hobbies()">Hobbies e Soft skills</button>
+            <button id="bprojetos" class="btn" onclick="projetos()">Projetos</button>
+            <button id="bcontato" class="btn" onclick="contato()">Contate-me</button>       
         </aside>
 
-        <section id="main__conteudo" class="conteudo">
+        <section id="main__conteudo" class="main__conteudo">
             <article class="home" id="home">
-                <div>
+                <div class="home__bemvindo">
                     <h1>Olá a todos,</h1>
                     <h4>me chamo Arcelino Santos e sejam bem vindos ao meu portfólio.</h4>
-                    <nav>
+                    <nav class="home__bemvindo--links">
                         <a href="https://github.com/arcelino1997" target="_blank" rel="noopener noreferrer">GitHub</a>  
                         <a href="https://www.linkedin.com/in/arcelinosantos/" target="_blank" rel="noopener noreferrer">Linkedin</a>    
                         <a href="https://www.instagram.com/arcelino_1997" target="_blank" rel="noopener noreferrer">Instagram</a>   
                         <a href="http://" target="_blank" rel="noopener noreferrer">Currículo</a>   
                     </nav>
                 </div>
-                <img class="conteudo__imagem" src="arcelino-sobre-mim.jpeg" alt="Arcelino">
+                <img class="conteudo__imagem" src="img/arcelino-sobre-mim.jpeg" alt="Arcelino">
             </article>
             
             <article class="sobre__mim" id="sobre__mim">

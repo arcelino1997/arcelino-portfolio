@@ -14,6 +14,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1;
+    text-align: center;
 }
 ol, ul,li {
     list-style: none;
@@ -23,7 +24,7 @@ a{
 }
 .sobre__mim, .formacao, .hobbies, .contato, .projetos{
     display: none;
-    align-items: center;
+   
 }
 
 /*Neste desafio, gostariamos que praticassem a metodologia BEM, caso seintam a vontade 
@@ -41,54 +42,75 @@ https://en.bem.info/methodology/quick-start/*/
 
 /*HEADER*/
 .cabecalho{
-    display: flex;
-    justify-content: space-around;
     width: 100%;
-    height: 50px;
+    height: 30px;
+    background-color: var(--cor--botoes);
+}
+.email{
+    background-color: var(--cor--botoes);
+    height: 20px;
+    justify-content: center;
+    border: none;
 }
 .header__menu{
     background-color: var(--cor--botoes);
-    display: flex;
     width: 100%;
+    height: 30px;
+    justify-content: center;
+    gap: 5px;
+}
+.btn{
+    justify-content: center;
+    height: 20px;
+    background-color: black;
+    color: white;
 }
 
 /*MAIN*/
 .main{
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    width: 100%;
-    height: 100%;
-    padding-left: 20px;
-    padding-right: 20px;    
+    align-items: center;
 }
 .main__botoes{
-    background-color: var(--cor--botoes);
     display: none;
-    width: 100%;
-
 }
 .main__conteudo{
-    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
     height: 100%;
-    
+}
+/*Sessão home*/
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 400px;
+}
+.home__bemvindo{
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+    align-items: start;
 }
 
-
-/*Sessão home*/
+.home__bemvindo--links{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    gap: 15px;
+}
 .conteudo__imagem{
     width: 200px;
     height: 200px;
     border-radius: 50%;
 }
-
-/*Sessão About*/
-.sobre__mim--section{
-    display: flex;
-    flex-direction: column;
-}
-
-
 /*Sessão Hobbies*/
 
 
@@ -105,7 +127,7 @@ https://en.bem.info/methodology/quick-start/*/
 
 
 
-/*footeer*/
+/*FOOTER*/
 .rodape{
     width: 100%;
     height: 100px;

@@ -1,0 +1,42 @@
+
+/*HEADER*/
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+}
+.header__menu{
+    background-color: var(--cor--botoes);
+    display: flex;
+}
+
+/*MAIN*/
+
+/*Sessão home*/
+
+
+
+/*Sessão Hobbies*/
+
+
+
+/* Experiência Acadêmica*/
+
+
+
+/* experiência*/
+
+
+
+/*Contato*/
+
+
+
+/*FOOTER*/
+.rodape{
+    width: 100%;
+    height: 100px;
+    position:fixed;
+    bottom: 0;
+    text-align: center;
+    background-color: var(--cor--botoes);
+}
