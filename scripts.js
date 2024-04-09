@@ -5,8 +5,6 @@ function about(){
     document.querySelector('#hobbies').style.display = 'none';
     document.querySelector('#projetos').style.display = 'none';
     document.querySelector('#contato').style.display = 'none';
-    let el = document.querySelector('#sobre__mim');
-    el.style.flexDirection = 'column';
 }
 function formacao(){
     document.querySelector('#home').style.display = 'none';

@@ -39,29 +39,47 @@ Link da documentação oficial!
 https://en.bem.info/methodology/quick-start/*/
 
 /*Sessão Menu*/
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 50px;
+}
+
+/*MAIN*/
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.main__botoes{
+    background-color: #204051;
+    display: flex;
+
+}
+.main__conteudo{
+    width: 80%;
+    height: 100%;
+    
+}
+
+
+/*Sessão home*/
 .conteudo__imagem{
     width: 200px;
     height: 200px;
     border-radius: 50%;
 }
 
-/*ASIDE BOTOES*/
-.botoes{
-    background-color: #204051;
-    width: 200px;
-    height: 300px;
-}
-.main{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-}
-
-/*Sessão Title*/
-
-
 /*Sessão About*/
-
+.sobre__mim--section{
+    display: flex;
+    flex-direction: column;
+}
 
 
 /*Sessão Hobbies*/
