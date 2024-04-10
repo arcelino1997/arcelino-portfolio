@@ -86,6 +86,8 @@ https://en.bem.info/methodology/quick-start/*/
     width: 100%;
     height: 100%;
 }
+
+
 /*Sessão home*/
 .home{
     display: flex;
@@ -104,25 +106,63 @@ https://en.bem.info/methodology/quick-start/*/
 
 .home__bemvindo--links{
     width: 100%;
-    height: 70px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center ;
     gap: 15px;
 }
 .p__bemvindo{
-    background-color: white;
+    background-color: var(--cor--botoes);
+    border-radius: 1.5rem;
+    height: 20px;
+    width: 70px;
+    align-items: center;
+    color: black;
 }
 .conteudo__imagem{
     width: 200px;
     height: 200px;
     border-radius: 50%;
 }
+
+
 /*Sessão Hobbies*/
 
 
 
-/* Experiência Acadêmica*/
+/* FORMAÇÃO ACADEMICA*/
+.formacao{
+    height: 100%;
+}
+.formacao__container{
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+}
+.formacao__container__logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.logos__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 300px;
+}
+.formacao__logos{
+    width: 200px;
+    height: 200px;
+}
+.strong__logo{
+    width: 200px;
+    height: 32px;
+}
 
 
 
